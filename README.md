@@ -1,4 +1,4 @@
-# node-typescript-boilerplate
+# shadowsocks-typescript
 
 [![Sponsor][sponsor-badge]][sponsor]
 [![TypeScript version][ts-badge]][typescript-5-5]
@@ -87,9 +87,21 @@ If your project requires CommonJS, you will have to [convert to ESM][sindresorhu
 
 Please do not open issues for questions regarding CommonJS or ESM on this repo.
 
-## Backers & Sponsors
+## 使用
 
-Support this project by becoming a [sponsor][sponsor].
+1. 先编译
+    ```cmd
+    npm run build
+    ```
+2. 再运行服务端
+    ```cmd
+    npm run start:ssserver
+    ```
+3. 最后运行客户端
+    ```cmd
+    npm run start:sslocal
+    ```
+4. 浏览器使用 SwitchyOmega 代理
 
 ## License
 
